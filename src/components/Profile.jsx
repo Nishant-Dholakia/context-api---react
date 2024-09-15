@@ -8,7 +8,8 @@ function Profile() {
          return <div className='bg-amber-300'>Please Login first</div>
     else
        return <div className='bg-amber-300'>Username : {user.username}</div>
-      
-}
+
+
+    }
 
 export default Profile
